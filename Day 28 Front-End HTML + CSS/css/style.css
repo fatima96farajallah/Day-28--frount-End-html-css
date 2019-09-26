@@ -1,0 +1,142 @@
+
+* {
+  box-sizing: border-box;
+}
+.nav-right{
+  
+  position: absolute;
+  display: flex;
+  right: 0;
+  top: 12px;
+  align-items: center;
+
+}
+.nav-left{
+  
+  position: relative;
+  
+}
+.search{
+    
+    width: 500px;
+    height: 30px;
+    border-radius: 26px;
+    border: 2px solid #ccc;
+}
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 30px;
+   background-color: #ccc;
+   color: white;
+ }
+ .center{
+ 	text-align: center;
+ 	margin-top: 155px;
+ }
+.icon-microphone{
+  margin-right: 15px;
+}
+.icon-search{
+  margin-right: 15px;
+}
+.google{
+ margin-right: 20px;
+ 
+}
+.nav{
+    display: flex;
+    height: 60%;
+    width: 69%;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 25px;
+}
+a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+.image-input{
+  position: absolute;
+  top: 9px;
+  right: 0;
+}
+.header{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 21px 20px auto;
+ 
+}
+.nav-item{
+  justify-content: center;
+
+}
+.result{
+   border-top: 2px solid #ccc;
+   display: flex;
+   flex-direction: column;
+ 
+    }
+ .sub-nav{
+   margin-left: 80px;
+ }
+ .card{
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 40px;
+    line-height: 1.5;
+ }
+ .leftcolumn{
+  position: absolute;
+  left: 100px;
+   font-family: arial,sans-serif;
+ }
+ .rightcolumn{
+  border-style: 1px solid #ccc;
+
+ }
+p{
+  max-width: 450px;
+  font-size: small;
+}
+.card1 a{
+  color: #4CAF50 !important;
+  padding: 0;
+}
+.card2{
+  color: #5050b3;
+  padding: 0;
+}
+.link-color{
+      color: black;
+}
+.leftcolumn div:last-child{
+  display: flex;
+    width: 5%;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding-top: 15px;
+    margin-right: -665px;
+} 
+.leftcolumn div .page-google{
+  width: 83%;
+    display: initial;
+}
+.footer{
+    border-top: 1px solid #ccc;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 29px;
+}
+.link2{
+  color: black;
+  text-decoration: none;
+  margin: 0px 10px;   
+  cursor: pointer;
+} 
